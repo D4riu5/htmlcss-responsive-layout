@@ -1,12 +1,23 @@
-/* MOBILE --> TABLET START*/
+/* TABLET START*/
+@media screen and (max-width: 768px) {
+ 
+    .container{
+        max-width: 750px;
+    }
+    
+}
+/* TABLET END */
 
-/* MOBILE --> TABLET END */
 
+/* MOBILE START*/
+@media screen and (max-width: 480px) {
+ 
+    .container{
+        max-width: 600px;
+    }
+    
+}
+/* MOBILE END */
 
-
-
-/* TABLET --> DESKTOP */
-
-/* TABLET --> DESKTOP END */
 
 

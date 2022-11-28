@@ -1,5 +1,13 @@
 /* HEADER START*/
+header{
+    background-color: var(--primary-color);
+}
 
+.site-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /* HEADER END*/
 
 

@@ -17,20 +17,28 @@
 
 
 /* UTILITIES START  */
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 var(--main-space);
+}
+
+/* DEBUG */
+.box-debug{
+    background-color: var(--primary-color-light);
+    padding: 10px;
+}
+
+
 /* COLORS START*/
-
+:root{
+    --primary-color: #0084fd;
+    --primary-color-light: #b5ddff;
+    --secondary-color: #9792e4;
+    --main-space: 2rem;
+}
 /* COLORS END */
-
-
-/* MARGIN-PADDING START */
-
-/* MARGIN-PADDING END */
-
-
-/* FLEX START */
-
-/* FLEX END */
-
 
 /* BUTTONS START */
 
