@@ -41,11 +41,26 @@ header{
 #intro .cards .card:first-child > *{
     width: 50%;
 }
-
 /* SECTION 1 END */
 
 
 /* SECTION 2 START */
+#planning{
+    padding: var(--main-space) 0;
+    background-color: var(--secondary-color);
+}
+
+#planning .row{
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: center; */
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+#planning .row .col{
+    width: 50%;
+}
 
 /* SECTION 2 END */
 
