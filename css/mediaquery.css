@@ -29,6 +29,17 @@
     /* SECTION 2 END */
 
 
+    /* SECTION 3 START */
+
+    /* SECTION 3 END */
+
+
+    /* SECTION 4 START */
+    #benefits .col{
+        width: calc(100% / 2 - 1.5rem);
+    }
+    /* SECTION 4 END */
+
 }
 /* TABLET END */
 
@@ -61,6 +72,13 @@
         flex-direction: column;
     }
     /* SECTION 3 END */
+
+    
+    /* SECTION 4 START */
+    #benefits .col{
+        width: 100%;
+    }
+    /* SECTION 4 END */
 }
 /* MOBILE END */
 
