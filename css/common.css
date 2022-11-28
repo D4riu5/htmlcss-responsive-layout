@@ -17,11 +17,15 @@
 
 
 /* UTILITIES START  */
-
 .container{
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 var(--main-space);
+}
+
+/* MEASUREMENTS */
+:root{
+    --main-space: 2rem;
 }
 
 /* DEBUG */
@@ -36,8 +40,8 @@
     --primary-color: #0084fd;
     --primary-color-light: #b5ddff;
     --secondary-color: #9792e4;
-    --main-space: 2rem;
 }
+
 /* COLORS END */
 
 /* BUTTONS START */

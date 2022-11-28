@@ -4,6 +4,17 @@
     .container{
         max-width: 750px;
     }
+
+    #intro .cards .card:first-child{
+        width: calc((100% / 3 )*2 - 1.5rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    #intro .cards .card:first-child > *{
+        width: 50%;
+    }
     
 }
 /* TABLET END */
@@ -16,6 +27,13 @@
         max-width: 600px;
     }
     
+    #intro .cards .card{
+        width: 100%;
+    }
+
+    #intro .cards .card:first-child{
+        width: 100%;
+    }
 }
 /* MOBILE END */
 

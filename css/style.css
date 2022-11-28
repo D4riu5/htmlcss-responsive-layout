@@ -13,6 +13,34 @@ header{
 
 /* MAIN START */
 /* SECTION 1 START */
+#intro{
+    padding: var(--main-space) 0;
+}
+
+#intro .cards{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin: 0 -0.75rem;
+}
+
+#intro .cards .card{
+    width: calc((100% / 3) - 1.5rem);
+    margin-bottom: var(--main-space);
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    background-color: var(--primary-color-light);
+}
+
+#intro .cards .card:first-child{
+    width: calc((100% / 3 )*2 - 1.5rem);
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro .cards .card:first-child > *{
+    width: 50%;
+}
 
 /* SECTION 1 END */
 
