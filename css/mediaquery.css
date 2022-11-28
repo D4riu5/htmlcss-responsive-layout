@@ -19,7 +19,6 @@
 
 
     /* SECTION 2 START */
-
     #planning .row{
         flex-wrap: wrap;
     }
@@ -28,6 +27,8 @@
         width: 100%;
     }
     /* SECTION 2 END */
+
+
 }
 /* TABLET END */
 
@@ -53,6 +54,13 @@
     /* SECTION 2 START */
 
     /* SECTION 2 END */
+
+    
+    /* SECTION 3 START */
+    #testimonials .card{
+        flex-direction: column;
+    }
+    /* SECTION 3 END */
 }
 /* MOBILE END */
 

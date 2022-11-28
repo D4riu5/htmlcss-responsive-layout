@@ -61,12 +61,24 @@ header{
 #planning .row .col{
     width: 50%;
 }
-
 /* SECTION 2 END */
 
 
 /* SECTION 3 START */
+#testimonials{
+    padding: var(--main-space) 0;
+}
 
+#testimonials .container > *{
+    margin-bottom: var(--main-space);
+}
+
+
+#testimonials .card{
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    display: flex;
+}
 /* SECTION 3 END */
 
 
