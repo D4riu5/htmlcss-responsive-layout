@@ -146,7 +146,14 @@ header{
 
 
 /* FOOTER START */
+footer{
+    padding: var(--main-space);
+    background-color: var(--footer-color);
+}
 
+footer .container2 > *:first-child{
+    margin-bottom: var(--main-space);
+}
 /* FOOTER END */
 
 
