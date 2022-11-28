@@ -23,6 +23,12 @@
     padding: 0 var(--main-space);
 }
 
+.container2{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 var(--main-space);
+}
+
 /* MEASUREMENTS */
 :root{
     --main-space: 2rem;
@@ -40,6 +46,7 @@
     --primary-color: #0084fd;
     --primary-color-light: #b5ddff;
     --secondary-color: #9792e4;
+    --footer-color: rgb(24, 24, 24);
 }
 
 /* COLORS END */

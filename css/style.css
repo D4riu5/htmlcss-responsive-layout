@@ -133,7 +133,14 @@ header{
 
 
 /* SECTION 6 START */
+#get-started{
+    padding: var(--main-space);
+    background-color: var(--secondary-color);
+}
 
+#get-started .container2 > *{
+    margin-bottom: var(--main-space);
+}
 /* SECTION 6 END */
 /* MAIN END */
 
