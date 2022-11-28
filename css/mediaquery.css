@@ -40,6 +40,17 @@
     }
     /* SECTION 4 END */
 
+
+    /* SECTION 5 START */
+    #about-us .container .row .col:first-child{
+      width: 60%;
+    }
+
+    #about-us .container .row .col:last-child{
+      width: 40%;
+    }
+    /* SECTION 5 END */
+
 }
 /* TABLET END */
 
@@ -73,12 +84,26 @@
     }
     /* SECTION 3 END */
 
-    
+
     /* SECTION 4 START */
     #benefits .col{
         width: 100%;
     }
     /* SECTION 4 END */
+    
+
+    /* SECTION 5 START */
+    #about-us .container .row{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #about-us .container .row .col:first-child,
+    #about-us .container .row .col:last-child{
+        width: auto;
+    }
+    /* SECTION 5 END */
+
 }
 /* MOBILE END */
 

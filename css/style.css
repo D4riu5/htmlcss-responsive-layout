@@ -82,14 +82,14 @@ header{
 
 /* SECTION 4 START */
 #benefits{
-    padding: var(--main-space) 0;
+    padding: var(--main-space) 0 0 0;
     background-color: var(--secondary-color);
 }
 
 #benefits .row{
     display: flex;
     flex-wrap: wrap;
-    padding: var(--main-space) 0;
+    padding: var(--main-space) 0 0 0;
     /* margin fix for cards spacing */
     margin: 0 -0.75rem; 
 }
@@ -104,6 +104,30 @@ header{
 
 
 /* SECTION 5 START */
+#about-us{
+    padding: var(--main-space) 0;
+}
+
+#about-us .container .row{
+    display: flex;
+    padding: 0.75rem;
+    /* margin fix for cards spacing */
+    margin: 0 -0.75rem; 
+}
+
+#about-us .container .row .col{
+    margin-bottom: var(--main-space);
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+#about-us .container .row .col:first-child{
+  width: 75%;
+}
+
+#about-us .container .row .col:last-child{
+  width: 25%;
+}
 
 /* SECTION 5 END */
 
