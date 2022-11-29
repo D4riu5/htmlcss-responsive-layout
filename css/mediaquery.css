@@ -23,7 +23,15 @@
     }
     
     #intro .cards .card:first-child > *{
-        width: 50%;
+        width: 100%;
+    }
+
+    #intro .cards .card:first-child > .image-card{
+        margin-left: 20px;
+    }
+
+    #intro .cards .card:first-child > .image-card > img{
+        width: 55%;
     }
     /* SECTION 1 -INTRO- END */
 
@@ -98,6 +106,17 @@
 
     #intro .cards .card:first-child{
         width: 100%;
+        text-align: center;
+        
+    }
+
+    #intro .cards .card:first-child > .image-card{
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    #intro .cards .card:first-child > .image-card > img{
+        width: 75%;
     }
     /* SECTION 1 -INTRO- END */
 

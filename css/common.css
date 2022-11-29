@@ -13,11 +13,17 @@ html{
 body{
     font-family: 'Source Sans Pro', sans-serif;  
 }
+
+.bigger-txt{
+    font-size: 16px;
+}
 /* TEXT END */
 
 
 /* FONT-AWESOME START */
-
+.custom-i-r{
+    margin: 0 5px 0 0;
+}
 /* FONT-AWESOME END */
 
 
@@ -43,8 +49,10 @@ body{
 :root{
     --main-space: 2rem;
     --inner-space: 1rem;
+    --elements-spacing: 0.8rem 0;
     --button-space: 0.5rem;
-    --button-space-long: 0.4rem 2rem;
+    --button-space-long: 0.4rem 3rem;
+    
 }
 
 /* DEBUG */
@@ -66,6 +74,15 @@ body{
 .white{
     color: var(--white-color);
 }
+
+.blue{
+    color: var(--primary-color);
+}
+
+.blue-bg{
+    background-color: var(--primary-color);
+}
+
 /* COLORS END */
 
 /* BUTTONS START */
@@ -75,8 +92,12 @@ button{
     cursor: pointer;
 }
 
-.big-b{
+.extra-margin{
+    margin: 30px 0;
+}
 
+.big-b{
+    padding: var(--button-space-long);
 }
 
 .normal-b{

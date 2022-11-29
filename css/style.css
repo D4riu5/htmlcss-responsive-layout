@@ -52,21 +52,56 @@ header{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     background-color: var(--primary-color-light);
+    text-align: center;
+    padding: var(--inner-space);
+    border-radius: 12px;
+}
+
+#intro .cards .card >*:not(.image-card){
+    padding: var(--elements-spacing);
 }
 
 #intro .cards .card:first-child{
     width: calc((100% / 3 )*2 - 1.5rem);
     display: flex;
     justify-content: space-between;
+    text-align: start;
+    padding: 0;
+}
+
+#intro .cards .card:first-child>div:first-child{
+    padding: var(--inner-space);
+}
+
+#intro .cards .card >.double-card> *{
+    margin: var(--elements-spacing);
 }
 
 #intro .cards .card:first-child > *{
     width: 50%;
 }
 
+#intro .cards .card:first-child > .image-card{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 40px;
+}
+
+#intro .cards .card:first-child > .image-card > img{
+    width: 75%;
+}
+
 #hamburger-menu{
     display: none;
     cursor: pointer;
+}
+
+#intro h3{
+    color: var(--primary-color);
+}
+
+#intro .fa-solid{
+    color: var(--primary-color);
 }
 /* SECTION 1 -INTRO- END */
 
