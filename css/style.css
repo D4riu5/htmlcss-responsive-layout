@@ -169,19 +169,57 @@ header{
     scroll-margin-top: 40px;
 }
 
+#testimonials .container > div:first-child > *{
+    display: block;
+    padding: var(--elements-spacing);
+    text-align: center;
+}
+
 #testimonials .container > *{
     margin-bottom: var(--main-space);
 }
 
 #testimonials .card{
     background-color: var(--secondary-color);
-    padding: 1rem;
+    padding: var(--inner-space);
     display: flex;
+    border-radius: 22px;
 }
 
-#testimonials .card > div:nth-child(2){
-    flex-grow: 1;
+#testimonials .card div:first-of-type{
+    display: flex;
+    align-items: center;
 }
+
+#testimonials .card img{
+    object-fit: cover;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+#testimonials .card > div:nth-child(2) > div{
+    flex-grow: 1;
+    display: flex;
+    padding: var(--inner-space);
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#testimonials .card > div:nth-child(2) > div>div{
+    display: flex;
+    align-items: flex-start;
+}
+
+.bottom-quotes{
+    align-self: flex-end;
+}
+
+#testimonials .card > div:nth-child(2) > div> *{
+    padding: var(--inner-space);
+    color: var(--white-color);
+}
+
 /* SECTION 3 -TESTIMONIALS- END */
 
 

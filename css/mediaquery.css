@@ -64,11 +64,6 @@
     /* SECTION 2 -PLANNING- END */
 
 
-    /* SECTION 3 -TESTIMONIALS- START */
-
-    /* SECTION 3 -TESTIMONIALS- END */
-
-
     /* SECTION 4 -BENEFITS- START */
     #benefits .col{
         width: calc(100% / 2 - 1.5rem);
@@ -140,11 +135,15 @@
     /* SECTION 3 -TESTIMONIALS- START */
     #testimonials .card{
         flex-wrap: wrap;
+        justify-content: center;
     }
 
-    #testimonials .card > div{
-        width: 100%;
+    #testimonials .card > div:nth-child(2) > div{
+        padding: 0;
     }
+    #testimonials .card > div:nth-child(2) > div>div> span{
+        text-align: start;
+    };
     /* SECTION 3 -TESTIMONIALS- END */
 
 
