@@ -3,6 +3,7 @@ header{
     background-color: var(--primary-color);
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 .site-header{
@@ -269,7 +270,7 @@ header{
 
 #about-us .container .row{
     display: flex;
-    padding: 0.75rem;
+    padding: 2rem;
     /* margin fix for cards spacing */
     margin: 0 -0.75rem; 
 }
@@ -280,12 +281,41 @@ header{
     margin-right: 0.75rem;
 }
 
+#about-us .container .row .col>div>*{
+    padding: var(--elements-spacing);
+}
+
 #about-us .container .row .col:first-child{
-  width: 75%;
+    width: 75%;
 }
 
 #about-us .container .row .col:last-child{
-  width: 25%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#about-us .container .row .col:last-of-type>*:not(.image-container,a){
+    padding: var(--elements-spacing);
+}
+
+#about-us .container .row .col:last-of-type div{
+    position: relative;
+    width: 150px;
+}
+
+#about-us .container .row .col:last-of-type img{
+    object-fit: cover;
+    width: 160px;
+    height: 180px;;
+    border-radius: 50%;
+}
+
+#special-quote{
+    position: absolute;
+    top: 5%;
+    right: -5%;
 }
 
 /* SECTION 5 -ABOUT-US- END */
@@ -296,6 +326,7 @@ header{
     padding: var(--main-space);
     background-color: var(--secondary-color);
     scroll-margin-top: 40px;
+    text-align: center;
 }
 
 #get-started .container2 > *{

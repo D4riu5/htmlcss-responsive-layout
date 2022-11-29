@@ -80,6 +80,10 @@
     #about-us .container .row .col:last-child{
       width: 40%;
     }
+
+    .container3{
+        max-width: 100%;
+    }
     /* SECTION 5 -ABOUT-US- END */
 
 

@@ -54,6 +54,10 @@ body{
     padding: 0 var(--main-space);
 }
 
+.container3{
+    max-width: 150px;
+}
+
 .box{
     padding: 10px 0px;
 }
