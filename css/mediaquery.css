@@ -65,6 +65,7 @@
 
 
     /* SECTION 4 -BENEFITS- START */
+    
     #benefits .col{
         width: calc(100% / 2 - 1.5rem);
     }
@@ -148,6 +149,10 @@
 
 
     /* SECTION 4 -BENEFITS- START */
+    #benefits .row{
+        flex-wrap: wrap;
+    }
+
     #benefits .col{
         width: 100%;
     }

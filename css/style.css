@@ -219,7 +219,6 @@ header{
     padding: var(--inner-space);
     color: var(--white-color);
 }
-
 /* SECTION 3 -TESTIMONIALS- END */
 
 
@@ -228,6 +227,10 @@ header{
     padding: var(--main-space) 0 0 0;
     background-color: var(--secondary-color);
     scroll-margin-top: 40px;
+}
+
+#benefits h2:not(.huge-txt){
+    text-align: center;
 }
 
 #benefits .row{
@@ -243,6 +246,17 @@ header{
     margin-bottom: var(--main-space);
     margin-left: 0.75rem;
     margin-right: 0.75rem;
+    background-color: var(--white-color);
+    padding: var(--inner-space);
+    border-radius: 22px;
+}
+
+#benefits .col > div >*{
+    padding: var(--elements-spacing);
+}
+
+#benefits .col > div > h4{
+    color: var(--secondary-color);
 }
 /* SECTION 4 -BENEFITS- END */
 
