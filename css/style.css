@@ -1,18 +1,40 @@
 /* HEADER START*/
 header{
     background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
 }
 
 .site-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+
+.site-header img{
+    width: 70%;
+    vertical-align: middle;
+}
+
+.site-header ul{
+    list-style: none;
+}
+
+.site-header ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.site-header ul li a{
+    text-decoration: none;
+    padding: 5px;
 }
 /* HEADER END*/
 
 
 /* MAIN START */
-/* SECTION 1 START */
+/* SECTION 1 -INTRO- START */
 #intro{
     padding: var(--main-space) 0;
 }
@@ -41,13 +63,19 @@ header{
 #intro .cards .card:first-child > *{
     width: 50%;
 }
-/* SECTION 1 END */
+
+#hamburger-menu{
+    display: none;
+    cursor: pointer;
+}
+/* SECTION 1 -INTRO- END */
 
 
-/* SECTION 2 START */
+/* SECTION 2 -PLANNING- START */
 #planning{
     padding: var(--main-space) 0;
     background-color: var(--secondary-color);
+    scroll-margin-top: 40px;
 }
 
 #planning .row{
@@ -60,12 +88,13 @@ header{
 #planning .row .col{
     width: 50%;
 }
-/* SECTION 2 END */
+/* SECTION 2 -PLANNING- END */
 
 
-/* SECTION 3 START */
+/* SECTION 3 -TESTIMONIALS- START */
 #testimonials{
     padding: var(--main-space) 0;
+    scroll-margin-top: 40px;
 }
 
 #testimonials .container > *{
@@ -77,13 +106,18 @@ header{
     padding: 1rem;
     display: flex;
 }
-/* SECTION 3 END */
+
+#testimonials .card > div:nth-child(2){
+    flex-grow: 1;
+}
+/* SECTION 3 -TESTIMONIALS- END */
 
 
-/* SECTION 4 START */
+/* SECTION 4 -BENEFITS- START */
 #benefits{
     padding: var(--main-space) 0 0 0;
     background-color: var(--secondary-color);
+    scroll-margin-top: 40px;
 }
 
 #benefits .row{
@@ -100,12 +134,13 @@ header{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
 }
-/* SECTION 4 END */
+/* SECTION 4 -BENEFITS- END */
 
 
-/* SECTION 5 START */
+/* SECTION 5 -ABOUT-US- START */
 #about-us{
     padding: var(--main-space) 0;
+    scroll-margin-top: 40px;
 }
 
 #about-us .container .row{
@@ -129,19 +164,20 @@ header{
   width: 25%;
 }
 
-/* SECTION 5 END */
+/* SECTION 5 -ABOUT-US- END */
 
 
-/* SECTION 6 START */
+/* SECTION 6 -GET-STARTED- START */
 #get-started{
     padding: var(--main-space);
     background-color: var(--secondary-color);
+    scroll-margin-top: 40px;
 }
 
 #get-started .container2 > *{
     margin-bottom: var(--main-space);
 }
-/* SECTION 6 END */
+/* SECTION 6 -GET-STARTED- END */
 /* MAIN END */
 
 

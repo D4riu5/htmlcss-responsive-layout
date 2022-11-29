@@ -1,10 +1,20 @@
 /* TABLET START*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
  
     .container{
         max-width: 750px;
     }
-    /* SECTION 1 START */
+    /* HEADER START */
+    nav > ul{
+        display: none;
+    }
+
+    #hamburger-menu{
+        display: block;
+    }
+    /* HEADER END */
+    
+    /* SECTION 1 -INTRO- START */
     #intro .cards .card:first-child{
         width: calc((100% / 3 )*2 - 1.5rem);
         display: flex;
@@ -15,10 +25,10 @@
     #intro .cards .card:first-child > *{
         width: 50%;
     }
-    /* SECTION 1 END */
+    /* SECTION 1 -INTRO- END */
 
 
-    /* SECTION 2 START */
+    /* SECTION 2 -PLANNING- START */
     #planning .row{
         flex-wrap: wrap;
     }
@@ -26,22 +36,22 @@
     #planning .row .col{
         width: 100%;
     }
-    /* SECTION 2 END */
+    /* SECTION 2 -PLANNING- END */
 
 
-    /* SECTION 3 START */
+    /* SECTION 3 -TESTIMONIALS- START */
 
-    /* SECTION 3 END */
+    /* SECTION 3 -TESTIMONIALS- END */
 
 
-    /* SECTION 4 START */
+    /* SECTION 4 -BENEFITS- START */
     #benefits .col{
         width: calc(100% / 2 - 1.5rem);
     }
-    /* SECTION 4 END */
+    /* SECTION 4 -BENEFITS- END */
 
 
-    /* SECTION 5 START */
+    /* SECTION 5 -ABOUT-US- START */
     #about-us .container .row .col:first-child{
       width: 60%;
     }
@@ -49,12 +59,12 @@
     #about-us .container .row .col:last-child{
       width: 40%;
     }
-    /* SECTION 5 END */
+    /* SECTION 5 -ABOUT-US- END */
 
 
-    /* SECTION 6 START */
+    /* SECTION 6 -GET-STARTED- START */
 
-    /* SECTION 6 END */
+    /* SECTION 6 -GET-STARTED- END */
 
     /* FOOTER START */
 
@@ -64,13 +74,24 @@
 
 
 /* MOBILE START*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
  
     .container{
         max-width: 600px;
     }
 
-    /* SECTION 1 START */
+    /* HEADER START */
+    nav > ul{
+        display: none;
+    }
+
+    #hamburger-menu{
+        display: block;
+    }
+    /* HEADER END */
+
+
+    /* SECTION 1 -INTRO- START */
     #intro .cards .card{
         width: 100%;
     }
@@ -78,29 +99,33 @@
     #intro .cards .card:first-child{
         width: 100%;
     }
-    /* SECTION 1 END */
+    /* SECTION 1 -INTRO- END */
 
 
-    /* SECTION 2 START */
+    /* SECTION 2 -PLANNING- START */
 
-    /* SECTION 2 END */
+    /* SECTION 2 -PLANNING- END */
 
     
-    /* SECTION 3 START */
+    /* SECTION 3 -TESTIMONIALS- START */
     #testimonials .card{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
-    /* SECTION 3 END */
+
+    #testimonials .card > div{
+        width: 100%;
+    }
+    /* SECTION 3 -TESTIMONIALS- END */
 
 
-    /* SECTION 4 START */
+    /* SECTION 4 -BENEFITS- START */
     #benefits .col{
         width: 100%;
     }
-    /* SECTION 4 END */
+    /* SECTION 4 -BENEFITS- END */
     
 
-    /* SECTION 5 START */
+    /* SECTION 5 -ABOUT-US- START */
     #about-us .container .row{
         flex-direction: column;
         padding: 0;
@@ -110,12 +135,12 @@
     #about-us .container .row .col:last-child{
         width: auto;
     }
-    /* SECTION 5 END */
+    /* SECTION 5 -ABOUT-US- END */
 
 
-    /* SECTION 6 START */
+    /* SECTION 6 -GET-STARTED- START */
 
-    /* SECTION 6 END */
+    /* SECTION 6 -GET-STARTED- END */
 
 
     /* FOOTER START */

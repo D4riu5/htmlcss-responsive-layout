@@ -6,7 +6,13 @@
 }
 
 /* TEXT START */
+html{
+    scroll-behavior: smooth;
+}
 
+body{
+    font-family: 'Source Sans Pro', sans-serif;  
+}
 /* TEXT END */
 
 
@@ -29,9 +35,16 @@
     padding: 0 var(--main-space);
 }
 
+.box{
+    padding: 10px 0px;
+}
+
 /* MEASUREMENTS */
 :root{
     --main-space: 2rem;
+    --inner-space: 1rem;
+    --button-space: 0.5rem;
+    --button-space-long: 0.4rem 2rem;
 }
 
 /* DEBUG */
@@ -46,12 +59,32 @@
     --primary-color: #0084fd;
     --primary-color-light: #b5ddff;
     --secondary-color: #9792e4;
+    --white-color: #ddd;
     --footer-color: rgb(57, 56, 56);
 }
-
+/* CLASSES */
+.white{
+    color: var(--white-color);
+}
 /* COLORS END */
 
 /* BUTTONS START */
+button{
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
 
+.big-b{
+
+}
+
+.normal-b{
+    padding: var(--button-space);
+}
+
+.small-b{
+
+}
 /* BUTTONS END */
 /* UTILITIES END */
