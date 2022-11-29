@@ -49,6 +49,7 @@ body{
 :root{
     --main-space: 2rem;
     --inner-space: 1rem;
+    --big-space: 2.5rem;
     --elements-spacing: 0.8rem 0;
     --button-space: 0.5rem;
     --button-space-long: 0.4rem 3rem;
@@ -83,6 +84,10 @@ body{
     background-color: var(--primary-color);
 }
 
+.purple-bg{
+    background-color: var(--secondary-color);
+}
+
 /* COLORS END */
 
 /* BUTTONS START */
@@ -104,8 +109,10 @@ button{
     padding: var(--button-space);
 }
 
-.small-b{
-
+.round-b{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
 }
 /* BUTTONS END */
 /* UTILITIES END */

@@ -39,10 +39,27 @@
     /* SECTION 2 -PLANNING- START */
     #planning .row{
         flex-wrap: wrap;
+        max-width: 100%;
     }
     
     #planning .row .col{
         width: 100%;
+    }
+
+    #planning .row .col:nth-child(1){
+        padding: var(--inner-space) 0;
+    }
+
+    #planning .row .col:nth-child(2){
+        width: 100%;
+    }
+
+    #planning .col div > div> img{
+        width:85%;
+    }
+
+    #planning .row .col:nth-child(1) h2{
+        font-size: 35px;
     }
     /* SECTION 2 -PLANNING- END */
 
@@ -120,12 +137,6 @@
     }
     /* SECTION 1 -INTRO- END */
 
-
-    /* SECTION 2 -PLANNING- START */
-
-    /* SECTION 2 -PLANNING- END */
-
-    
     /* SECTION 3 -TESTIMONIALS- START */
     #testimonials .card{
         flex-wrap: wrap;
