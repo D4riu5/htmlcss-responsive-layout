@@ -177,7 +177,9 @@
 
 
     /* SECTION 6 -GET-STARTED- START */
-
+    .padded-in{
+        padding: 0;
+    }
     /* SECTION 6 -GET-STARTED- END */
 
 

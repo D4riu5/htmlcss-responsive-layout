@@ -14,6 +14,10 @@ body{
     font-family: 'Source Sans Pro', sans-serif;  
 }
 
+.small-txt{
+    font-size: 10px;
+}
+
 .bigger-txt{
     font-size: 16px;
 }
@@ -24,6 +28,14 @@ body{
 
 .huge-txt{
     font-size: 50px;
+}
+
+.hugest-txt{
+    font-size: 65px;
+}
+
+p{
+    line-height: 1.5rem;
 }
 /* TEXT END */
 
@@ -58,6 +70,10 @@ body{
     max-width: 150px;
 }
 
+.padded-in{
+    padding: 10px 80px;
+}
+
 .box{
     padding: 10px 0px;
 }
@@ -71,6 +87,7 @@ body{
     --button-space: 0.5rem;
     --button-space-avrg: 0.5rem 2rem;
     --button-space-long: 0.5rem 3rem;
+    --button-space-thick: 1rem 3rem;
     
 }
 
@@ -88,6 +105,7 @@ body{
     --secondary-color: #9792e4;
     --white-color: rgb(242, 242, 242);
     --footer-color: rgb(57, 56, 56);
+    --yellow-color: rgb(241, 205, 97);
 }
 /* CLASSES */
 .white{
@@ -96,6 +114,10 @@ body{
 
 .blue{
     color: var(--primary-color);
+}
+
+.yellow{
+    color: var(--yellow-color);
 }
 
 .purple{
@@ -109,7 +131,6 @@ body{
 .purple-bg{
     background-color: var(--secondary-color);
 }
-
 /* COLORS END */
 
 /* BUTTONS START */
@@ -138,6 +159,11 @@ button{
 
 .big-b{
     padding: var(--button-space-long);
+}
+
+.biggest-b{
+    padding: var(--button-space-thick);
+    border-radius: 30px;
 }
 
 .round-b{

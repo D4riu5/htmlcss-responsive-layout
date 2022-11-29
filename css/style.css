@@ -282,7 +282,7 @@ header{
 }
 
 #about-us .container .row .col>div>*{
-    padding: var(--elements-spacing);
+    padding: var(--elements-spacing);  
 }
 
 #about-us .container .row .col:first-child{
@@ -317,7 +317,6 @@ header{
     top: 5%;
     right: -5%;
 }
-
 /* SECTION 5 -ABOUT-US- END */
 
 
@@ -329,8 +328,12 @@ header{
     text-align: center;
 }
 
-#get-started .container2 > *{
-    margin-bottom: var(--main-space);
+#get-started .container2 > *:not(p){
+    padding: var(--elements-spacing);
+}
+
+#get-started .container2 > span{
+    display: inline-block;
 }
 /* SECTION 6 -GET-STARTED- END */
 /* MAIN END */
