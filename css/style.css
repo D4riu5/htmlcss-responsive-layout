@@ -343,6 +343,7 @@ header{
 footer{
     padding: var(--main-space);
     background-color: var(--footer-color);
+    text-align: center;
 }
 
 footer .container2 > *:first-child{
